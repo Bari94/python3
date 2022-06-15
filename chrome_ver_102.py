@@ -18,8 +18,3 @@ while datetime.datetime.now() <= min10:
     #3秒待って閉じる    
 time.sleep(3)
 chrome.quit()
-
-
-
-#<button class="progress-button pure-button pure-button-primary" id="start"><span class="content" style="opacity: 1;">測定スタート</span><span class="progress"><span id="progress-inner" style="width: 100%;"></span></span></button>
-#<button class="btn btn-default" id="clickarena"><b>出来るだけ早く緑色をタップ・クリックしてください。</b></button>
