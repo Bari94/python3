@@ -12,9 +12,11 @@ chrome.find_element_by_id('start').click()
 time.sleep(1)
 chrome.find_element_by_id('clickarena').click()
 min10 = datetime.datetime.now() + datetime.timedelta(seconds = 10)
+
 #10秒間連打
 while datetime.datetime.now() <= min10:
     chrome.find_element_by_id('clickarena').click()
-    #3秒待って閉じる    
+    
+#3秒待って閉じる    
 time.sleep(3)
 chrome.quit()
